@@ -1,7 +1,7 @@
 {
   "name": "mgm",
   "version": "1.0.0",
-  "description": "",
+  "description": "mkdir member-get-member && cd member-get-member\r npm init -y\r npm install express pg uuid dotenv\r npm install --save-dev nodemon",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

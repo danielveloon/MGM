@@ -15,7 +15,7 @@ router.post('/link', async (req, res) => {
   );
 
     const uuid = result.rows[0].referral_link;
-    const link = `http://localhost:3000/indicar/${uuid}`;
+    const link = `http://localhost:3000/consulta-fgts/${uuid}`;
 
     res.json({ link });
   } catch (error) {
