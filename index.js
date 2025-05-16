@@ -2,6 +2,9 @@ const express = require('express');
 const path = require('path');
 const db = require('./db/connection');
 require('dotenv').config();
+const createTables = require('./createTables');
+
+
 
 const app = express();
 
